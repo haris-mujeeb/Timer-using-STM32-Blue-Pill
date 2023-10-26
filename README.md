@@ -3,9 +3,9 @@ Implementing three popular methods of using timers (namely, Interrupt Mode, Poll
 
 ## Results:
 
-Onboard LED control by Interrupt Mode.
-Yellow LED (left) control by Polling Mode.
-White LED (right) control by DMA Mode.
+- Green LED (onboard) is controlled by Interrupt Mode.
+- Yellow LED (left) is controlled by Polling Mode.
+- White LED (right) is controlled by DMA Mode.
 
 ## 1. Using Timers in Interrupt Mode:
 - It sets up a free-running counter.
