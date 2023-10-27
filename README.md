@@ -4,8 +4,8 @@ Implementing three popular methods of using timers (namely, Interrupt Mode, Poll
 ## Results:
 ![](https://github.com/haris-mujeeb/Timer-using-STM32-Blue-Pill/blob/main/Timer_LED_Demo.gif)
 - Green LED (onboard) is controlled by Interrupt Mode.
-- Yellow LED (left) is controlled by Polling Mode.
-- White LED (right) is controlled by DMA Mode.
+- Yellow LED (left) connected on Pin B10 and is controlled by Polling Mode.
+- White LED (right) connected on Pin A11 and is controlled by DMA Mode.
 
 ## 1. Using Timers in Interrupt Mode:
 - It sets up a free-running counter.
